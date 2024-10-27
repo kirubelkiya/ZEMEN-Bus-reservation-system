@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 4px;
+}
+
+.btn-danger {
+    background-color: #e06a3e;
+    color: #fff;
+}
+.btn-danger:hover{
+    background-color: #f04f14;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Secondary button styles */
+.btn-success {
+    background-color: #2671d4;
+    color: #fff;
+}
+.btn-success:hover {
+    background-color: #0839a2;
+    color: #fff;
+}
+
+
+/* Float end class */
+.float-end {
+    float: right;
+}
+
+/* Hint text styles */
+.hint-text {
+    color: #777;
+}
+
+/* Checkbox label styles */
+.form-check-label {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Link hover styles */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .signup-form {
+        width: 90%;
+    }
+}

@@ -1,0 +1,56 @@
+body{
+
+}
+.container{
+    background-color: blueviolet;
+
+}
+.com{
+    display: flex;
+    background-color: coral;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.tel{
+    display: flex;
+    background-color: darkslateblue;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.mps{
+    display: flex;
+    background-color: #a04545;
+    border-start-start-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 200px;
+}
+.imag{
+    padding-left: 70%;
+    padding-right:40px;
+    margin-bottom: 30px;
+    border-bottom-left-radius:15%;
+    margin-top: -10px; 
+    
+
+}
+#com{
+    width: 1000px;
+    height: 85%;
+    padding-right: 65px;
+    padding-left: 69%;
+    
+}
+#tel{
+    width: 180px;
+    height: 85%;
+    
+}
+#mps{
+    width: 180px;
+    height: 85%;
+
+    
+}

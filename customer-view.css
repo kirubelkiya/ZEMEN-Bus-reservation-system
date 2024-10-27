@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #2a7acf;
+    color: #fff;
+    padding: 20px; /* Adjusted padding */
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h4 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Styles for form labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Reduce margin-bottom */
+}
+
+/* Styles for form input boxes */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Reduce margin-bottom */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for form paragraph */
+p.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px; 
+    margin-top: 5px; 
+    /* Reduce margin-bottom */
+}
+
+/* Styles for back button */
+.btn-danger {
+    background-color: #d9ae8a;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-danger:hover {
+    background-color:#b77224;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
